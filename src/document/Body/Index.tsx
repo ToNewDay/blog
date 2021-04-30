@@ -6,6 +6,9 @@ import _ from 'lodash';
 import { useHistory } from 'react-router-dom';
 import '../style.scss';
 import AsideMenu from './AsideMenu';
+import searchData from '../../assert/search.json';
+import { DataItem, Search as DocumentSearch } from '../../component/document-search/search';
+
 // import { navSectionList, bookList, getDefaultBookInfo } from './Util';
 import util from './Util';
 
@@ -57,8 +60,6 @@ export default function Body(props: { searchKey?: string, hexoData: any }) {
             <div className="helpContentWrapper">
                 <div className="helpNavigation" id="asideMenuLeft" role="navigator">
                     <div className="helpNavigationInner">
-                        <div className="helpNavHeading"><a href="http://help.coding.pages.oa.com"><span
-                            className="arrow"></span>帮助中心主页</a></div>
                         <div className="helpNavBookArea">
                             <NavBook
                                 key={_.get(navbook, 'bookInfo.title', '')}
@@ -79,7 +80,8 @@ export default function Body(props: { searchKey?: string, hexoData: any }) {
                 </div>
                 <div className="helpContent">
                     <article className="helpArticle markdown-body" >
-                        <div key={pathName} dangerouslySetInnerHTML={{ __html: pageContent }}    ></div>
+                        <DocumentSearch searchData={searchData as Array<DataItem>} placeholder="" />
+                        <div style={{ maxWidth: '1200px', marginTop: '50px' }} key={pathName} dangerouslySetInnerHTML={{ __html: pageContent }}    ></div>
                     </article>
                     <AsideMenu key={pathName} pageContent={pageContent} activeHash={window.location.hash} />
                 </div>

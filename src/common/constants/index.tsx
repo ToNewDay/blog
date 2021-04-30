@@ -25,24 +25,11 @@ export interface IDocumentBookInfo {
 }
 
 export const BOOK_DEFAULT_PAGE: Map<string, string> = new Map<string, string>([
-    ['快速入门', '/docs/quick-start/coding.html'],
-    ['测试管理', '/docs/test/intro/overview.html'],
-    ['文档管理', '/docs/management/api/start.html'],
-    ['持续集成', '/docs/ci/快速入门/QCI-concept.html'],
-    ['持续部署', '/docs/cd/README.html'],
-    ['自动化测试', '/docs/qta/INTRO.html'],
-    ['制品库', '/docs/artifacts/README.html'],
-    ['代码分析', '/docs/code-analysis/quickstart/introduction.html'],
-    // ['研发规范', '/docs/RD-specifications/README.html'],
-    ['代码管理', '/docs/code-management/INTRO.html'],
-    ['问答 & 更新', '/docs/faq/INTRO.html'],
-    ['配置中心', '/docs/config-center/INTRO.html'],
-    ['环境管理', '/docs/yunqi/README.html'],
-    ['Coding公共库API','/docs/config-api-public/api/projects.html']
+    ['React', '/docs/React/readme.html'],
 ]); 
 
 // 文档模块的排序
-export const BOOK_NAV_SORT: Array<string> = ['快速入门', '代码管理', '持续集成', '代码分析', '自动化测试', '环境管理', '测试管理', '制品库', '持续部署', '配置中心', '文档管理', '问答 & 更新','Coding公共库API'];
+export const BOOK_NAV_SORT: Array<string> = ['React'];
 
 export interface GuideItemProps {
     title: string;

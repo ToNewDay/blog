@@ -11,11 +11,11 @@ const basePath = process.cwd();
 // gitbook 转换配置数组
 const extendDocArr = [
     {
-        dirName: 'code-management',
+        dirName: 'react',
         staticDirName: 'imgs',
         navigation: {
-            compendium: '代码管理',
-            icon: 'docs/images/book-icons/wiki.svg',
+            compendium: 'React',
+            icon: 'docs/images/book-icons/react.svg',
         }
     },
 ];
@@ -147,6 +147,7 @@ async function dbJsonCopy() {
     const des = path.resolve(basePath, 'build', 'db.json');
     console.log(`copy ${source} to ${des}`);
     fs.copyFile(source, des);
+    fs.copyFile(source, path.resolve(basePath, 'public', 'db.json'));
 }
 
 function copyDocsFile(cb) {

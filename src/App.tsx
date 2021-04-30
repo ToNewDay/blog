@@ -31,11 +31,8 @@ function App() {
       <Fragment>
         <Router>
           <Switch>
-            <Route path="/docs">
-              <DocumentIndex />
-            </Route>
             <Route path="/">
-              <PortalIndex />
+              <DocumentIndex />
             </Route>
           </Switch>
         </Router>

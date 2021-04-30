@@ -47,7 +47,7 @@ export function NavSection(props: INavSectionProps) {
                                     }}
                                 >
                                     <span className="helpNavBookName">
-                                        <span className="icon" style={{ background: `url(/${info.icon}) center center` }}></span>
+                                        <span className="icon" style={{ backgroundSize: 'cover', background: `url(/${info.icon}) center center` }}></span>
                                         <span className="name">{info.title}</span>
                                     </span>
                                     <span className={classnames('selectIcon', { isActive: info.title == activeBookTitle })}  ></span>

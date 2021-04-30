@@ -15,7 +15,6 @@ export default function Index() {
     return (
         <Fragment>
             <div className="help_container">
-                <Header onSearchKeyChange={setSearchKey} />
                 <HexoDataContext.Consumer>
                     {hexoData => <Body searchKey={searchKey} hexoData={hexoData} />}
                 </HexoDataContext.Consumer>
