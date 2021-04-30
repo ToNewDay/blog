@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="114px" height="269px" viewBox="0 0 114 269" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>guide-bg/git-basics</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Support" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.5">
+        <g id="Desktop-HD" transform="translate(-600.000000, -524.000000)">
+            <g id="section-get-started" transform="translate(168.000000, 528.000000)">
+                <g id="git-basics" transform="translate(281.000000, 0.000000)">
+                    <g id="bg">
+                        <g id="guide-bg/git-basics" transform="translate(151.000000, -5.000000)">
+                            <g id="Group" transform="translate(1.500000, 0.500000)">
+                                <path d="M24,0.5 L24,269.5" id="Path" stroke="#17BBCB" stroke-width="3"></path>
+                                <path d="M0,269.5 L0,74 C0,67.372583 5.372583,62 12,62 L36,62 C42.627417,62 48,56.627417 48,50 L48,0.5" id="Path" stroke="#27D1E1" stroke-width="3"></path>
+                                <path d="M47.9999277,270 L48,241.44 C47.9843765,235.068832 50.5026995,228.952905 55,224.44 L153.72,125.72" id="Path" stroke="#08ACBC" stroke-width="3"></path>
+                                <path d="M96,0.5 L96,269.5" id="Path" stroke="#17BBCB" stroke-width="3"></path>
+                                <g id="Group-4" transform="translate(43.500000, 92.500000)" stroke="#08ACBC">
+                                    <path d="M78,4.5 L4,4.5" id="Path" stroke-width="3"></path>
+                                    <circle id="Oval" stroke-width="4" fill="#17C5D5" fill-rule="nonzero" cx="4.5" cy="4.5" r="4.5"></circle>
+                                </g>
+                                <g id="Group-3" transform="translate(19.500000, 0.500000)" stroke="#27D1E1" stroke-width="3">
+                                    <path d="M5,246.5 L64.5,246.5 C71.127417,246.5 76.5,241.127417 76.5,234.5 L76.5,0" id="Path"></path>
+                                    <circle id="Oval" fill="#17C5D5" cx="4.5" cy="246.5" r="4.5"></circle>
+                                </g>
+                                <g id="Group-5" transform="translate(71.999928, 0.000000)" stroke="#46E0EE">
+                                    <path d="M0,-1.42108547e-14 L7.22637666e-05,103.56 C-0.0155512783,109.931168 2.50277174,116.047095 7.00007226,120.56 L78.7200723,192.28" id="Path" stroke-width="3"></path>
+                                    <path d="M24.0000723,36 L12,36 C5.372583,36 -2.58798134e-15,41.372583 -1.77635684e-15,48 L0,56.4009439" id="Path-2" stroke-width="3"></path>
+                                    <circle id="Oval" stroke-width="4" fill="#17C5D5" fill-rule="nonzero" cx="24.0000723" cy="36" r="4.5"></circle>
+                                </g>
+                                <g id="Group-6" transform="translate(19.500000, 137.500000)" stroke="#46E0EE">
+                                    <path d="M52.5,133 L52.5,16.5 C52.5,9.872583 47.127417,4.5 40.5,4.5 L4.5,4.5" id="Path" stroke-width="3"></path>
+                                    <circle id="Oval" stroke-width="4" fill="#17C5D5" fill-rule="nonzero" cx="4.5" cy="4.5" r="4.5"></circle>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

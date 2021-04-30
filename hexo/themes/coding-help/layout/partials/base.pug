@@ -1,0 +1,17 @@
+doctype html
+html(lang="zh-cmn-Hans")
+  
+  include head.pug
+
+  body
+    .help_container
+      block header
+        include help-header
+      block main
+        //- .helpContainer
+        block left
+          //- include navigation
+        block content
+      block footer
+        include help-footer
+    script

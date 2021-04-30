@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>icons/presentation</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Support" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-1176.000000, -1061.000000)" fill="#202D40" fill-rule="nonzero">
+            <g id="read-this-documents" transform="translate(168.000000, 845.000000)">
+                <g id="download-ppt" transform="translate(843.000000, 63.000000)">
+                    <g id="button-booking" transform="translate(151.000000, 142.000000)">
+                        <g id="icons/presentation" transform="translate(14.000000, 11.000000)">
+                            <circle id="Oval" cx="4" cy="3" r="2"></circle>
+                            <path d="M10,8 C10.5522847,8 11,7.55228475 11,7 C11,6.44771525 10.5522847,6 10,6 L3,6 C1.8954305,6 1,6.8954305 1,8 L1,16 C1,16.5522847 1.44771525,17 2,17 C2.55228475,17 3,16.5522847 3,16 L3,12 L4,12 L4,16 C4,16.5522847 4.44771525,17 5,17 C5.55228475,17 6,16.5522847 6,16 L6,8 L10,8 Z" id="Path"></path>
+                            <path d="M16,2 L8,2 L8,4 L15,4 L15,11 L8,11 L8,13 L11.382,13 L13.105,16.447 C13.3518713,16.9412949 13.9527051,17.1418713 14.447,16.895 C14.9412949,16.6481287 15.1418713,16.0472949 14.895,15.553 L13.618,13 L16,13 C16.5522847,13 17,12.5522847 17,12 L17,3 C17,2.44771525 16.5522847,2 16,2 Z" id="Path"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

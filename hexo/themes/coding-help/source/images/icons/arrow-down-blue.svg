@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>icons/arrow-down-blue</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Support-|-Article" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Status" transform="translate(-300.000000, -1449.000000)" stroke="#0066FF" stroke-width="1.5">
+            <g id="left-nav" transform="translate(100.000000, 1036.000000)">
+                <g id="menu" transform="translate(16.000000, 97.000000)">
+                    <g id="icons/arrow-down-blue" transform="translate(184.000000, 316.000000)">
+                        <polyline id="Path" points="4.5 6 8 9.5 11.5 6"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

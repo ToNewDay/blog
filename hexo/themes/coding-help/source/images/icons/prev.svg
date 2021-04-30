@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>icons/prev</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Support-|-Article" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Desktop(1280+)" transform="translate(-397.000000, -2961.000000)" stroke="#202D40">
+            <g id="doc-body" transform="translate(373.000000, 108.000000)">
+                <g id="prev&amp;next" transform="translate(0.000000, 2829.000000)">
+                    <g id="prev">
+                        <g id="icons/prev" transform="translate(24.000000, 24.000000)">
+                            <path d="M14.5,8 L1.5,8" id="Path"></path>
+                            <polyline id="Path" points="6.5 3 1.5 8 6.5 13"></polyline>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

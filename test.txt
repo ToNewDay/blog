@@ -1,0 +1,2 @@
+test auto run ci
+test auto run ci

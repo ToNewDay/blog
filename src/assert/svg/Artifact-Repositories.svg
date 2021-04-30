@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>guide-icons/Artifact Repositories</title>
+    <defs fill="none" fill-rule="evenodd">
+        <path d="M26.0458716,7 L9.94495413,7 C9.41720183,7 8.99082569,7.42615894 8.99082569,7.95364238 L8.99082569,14.986755 L1.95412844,14.986755 C1.42637615,14.986755 1,15.4129139 1,15.9403974 L1,24.0463576 C1,24.5738411 1.42637615,25 1.95412844,25 L18.0550459,25 C18.5827982,25 19.0091743,24.5738411 19.0091743,24.0463576 L19.0091743,17.013245 L26.0458716,17.013245 C26.5736239,17.013245 27,16.5870861 27,16.0596026 L27,7.95364238 C27,7.42615894 26.5736239,7 26.0458716,7 Z M11.4,9.57142857 L16.6,9.57142857 L16.6,14.7142857 L11.4,14.7142857 L11.4,9.57142857 Z M8.8,22.4285714 L3.6,22.4285714 L3.6,17.2857143 L8.8,17.2857143 L8.8,22.4285714 Z M16.6,22.4285714 L11.4,22.4285714 L11.4,17.2857143 L16.6,17.2857143 L16.6,22.4285714 Z M24.4,14.7142857 L19.2,14.7142857 L19.2,9.57142857 L24.4,9.57142857 L24.4,14.7142857 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="guide-icons/Artifact-Repositories">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#FFFFFF" fill-rule="nonzero" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

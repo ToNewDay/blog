@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="188px" height="269px" viewBox="0 0 188 269" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>guide-bg/get-started</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Support" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-245.000000, -524.000000)">
+            <g id="section-get-started" transform="translate(168.000000, 528.000000)">
+                <g id="get-started">
+                    <g id="bg">
+                        <g id="guide-bg/get-started" transform="translate(77.000000, -22.000000)">
+                            <polygon id="Rectangle-Copy-8" fill="#FC9E38" points="96 192 144 240 96 240"></polygon>
+                            <polygon id="Rectangle-Copy-20" fill="#FFAF3B" points="48 192 96 240 48 240"></polygon>
+                            <polygon id="Rectangle-Copy-14" fill="#FFA64B" opacity="0.400000006" transform="translate(120.000000, 168.000000) scale(-1, -1) translate(-120.000000, -168.000000) " points="96 144 144 192 96 192"></polygon>
+                            <polygon id="Rectangle-Copy-23" fill="#FFB945" opacity="0.300000012" transform="translate(72.000000, 168.000000) scale(-1, -1) translate(-72.000000, -168.000000) " points="48 144 96 192 48 192"></polygon>
+                            <polygon id="Rectangle-Copy-15" fill="#FFAF3B" transform="translate(120.000000, 120.000000) scale(-1, 1) translate(-120.000000, -120.000000) " points="96 96 144 144 96 144"></polygon>
+                            <polygon id="Rectangle-Copy-18" fill="#FFBB4B" opacity="0.300000012" transform="translate(120.000000, 72.000000) scale(1, -1) translate(-120.000000, -72.000000) " points="96 48 144 96 96 96"></polygon>
+                            <polygon id="Rectangle-Copy-22" fill="#FFAD3F" points="96 0 144 48 96 48"></polygon>
+                            <polygon id="Rectangle-Copy-21" fill="#FDA741" opacity="0.400000006" transform="translate(72.000000, 72.000000) scale(-1, -1) translate(-72.000000, -72.000000) " points="48 48 96 96 48 96"></polygon>
+                            <polygon id="Rectangle-Copy-16" fill="#FFBA49" opacity="0.300000012" transform="translate(168.000000, 120.000000) scale(-1, -1) translate(-168.000000, -120.000000) " points="144 96 192 144 144 144"></polygon>
+                            <polygon id="Rectangle-Copy-19" fill="#FFAB4B" transform="translate(168.000000, 72.000000) scale(-1, -1) translate(-168.000000, -72.000000) " points="144 48 192 96 144 96"></polygon>
+                            <polygon id="Rectangle-Copy-12" fill="#FFBE54" opacity="0.600000024" transform="translate(168.000000, 216.000000) scale(-1, -1) translate(-168.000000, -216.000000) " points="144 192 192 240 144 240"></polygon>
+                            <polygon id="Rectangle-Copy-17" fill="#FF9D49" opacity="0.300000012" transform="translate(168.000000, 168.000000) scale(-1, -1) translate(-168.000000, -168.000000) " points="144 144 192 192 144 192"></polygon>
+                            <polygon id="Rectangle-Copy-11" fill="#FFB44A" transform="translate(120.000000, 264.000000) scale(1, -1) translate(-120.000000, -264.000000) " points="96 240 144 288 96 288"></polygon>
+                            <polygon id="Rectangle-Copy-24" fill="#FFBE54" opacity="0.200000003" transform="translate(24.000000, 264.000000) scale(1, -1) translate(-24.000000, -264.000000) " points="0 240 48 288 0 288"></polygon>
+                            <polygon id="Rectangle-Copy-13" fill="#FFAF3B" transform="translate(168.000000, 264.000000) scale(-1, 1) translate(-168.000000, -264.000000) " points="144 240 192 288 144 288"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>icons/liked</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Support-|-Article" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Status" transform="translate(-688.000000, -662.000000)" fill="#76808E" fill-rule="nonzero">
+            <g id="like-or-dislike" transform="translate(100.000000, 634.000000)">
+                <g id="like-or-dislike-actions" transform="translate(582.000000, 22.000000)">
+                    <g id="liked-button">
+                        <g id="icons/liked" transform="translate(6.000000, 6.000000)">
+                            <path d="M17.3,9 L13,9 L13,5 C13,3.5 12.2,3 11,3 C10.7,3 10.4,3.2 10.4,3.5 C10.4,3.5 8.1,11 8,11 L8,19 L16.6,19 C17.9,19 19,18 19.2,16.7 L20,12.1 C20.1,11.3 19.9,10.5 19.4,10 C18.9,9.3 18.1,9 17.3,9 Z" id="Path"></path>
+                            <rect id="Rectangle" x="4" y="11" width="2" height="8"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

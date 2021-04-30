@@ -1,0 +1,90 @@
+- const {index, sitemap} = site.data.navigation
+
+.helpNavigation#asideMenuLeft(role="navigator")
+    .helpNavigationInner
+        .helpNavHeading
+            a(href=('http://help.coding.pages.oa.com'))
+                span.arrow
+                = index.title
+        .helpNavBookArea
+            each book in sitemap
+                - const isCurrentBook = new RegExp(`^${book.path}`).test(page.path)
+                .helpNavBook(class={isActive: isCurrentBook})
+                    .helpNavBookHead
+                        .helpNavBookName
+                            span.icon(style=`background-image: url(${url_for(book.icon)})`)
+                            span.name
+                                = book.compendium
+                        .selectArrow
+                    .helpNavDivider
+                    ol.helpNavBookBody
+                        each category in book.categories
+                            - const isCurrentCategory= new RegExp(`^${category.path}`).test(page.path)
+                            li.helpNavSection
+                                if category.links || category.sections 
+                                    .helpNavTitle
+                                        a(href=`${ ( category.rootPath==undefined?'': ((config.root || '')+category.rootPath)) ||  "javascript:void('0')"}`)
+                                            span.category
+                                                = category.title
+                                        span.arrow(class={isExpanded: isCurrentCategory})
+                                else
+                                    a.helpNavTitleLink(href=`${config.root || ''}${ category.rootPath==undefined? category.path : category.rootPath}`)= category.title
+                                if category.sections 
+                                    each section in category.sections 
+                                        - const isCurrentSection= new RegExp(`^${section.path}`).test(page.path)
+                                        - const herfPathTmp= (section.rootPath==undefined && section.links==undefined &&  section.sections==undefined)?section.path:section.rootPath
+                                        - const herfPath=herfPathTmp==undefined ? "javascript:void('0')":(herfPathTmp.indexOf("://")==-1?((config.root || '')+herfPathTmp):herfPathTmp)
+                                        .helpThirdNav(class={isExpanded: isCurrentCategory})
+                                            .helpNavTitle
+                                                a(href=`${herfPath}`)
+                                                    span.category
+                                                        = section.title
+                                                if section.links!=undefined || section.sections!=undefined 
+                                                    span.arrow(class={isExpanded: isCurrentSection})
+                                            if section.links!=undefined
+                                                ol.helpNavLinks(class={isExpanded: isCurrentSection})
+                                                    each link in section.links
+                                                        li.helpNavLinkItem(class={isActive: page.path === link.path})
+                                                            a.helpNavLink(href=`${config.root || ''}${link.path}`)= link.title
+                                            if section.links==undefined && section.sections!=undefined
+                                                 each ssection in section.sections 
+                                                    - const isCurrentSection= new RegExp(`^${ssection.path}`).test(page.path)
+                                                    - const herfPathTmp= (ssection.rootPath==undefined && ssection.links==undefined && ssection.sections==undefined)?ssection.path:ssection.rootPath
+                                                    - const herfPath=herfPathTmp==undefined ? "javascript:void('0')":( herfPathTmp.indexOf("://")==-1?((config.root || '')+herfPathTmp):herfPathTmp)
+                                                    .helpThirdNav(class={isExpanded: isCurrentCategory})
+                                                        .helpNavTitle
+                                                            a(href=`${herfPath}`)
+                                                                span.category
+                                                                    = ssection.title
+                                                            if ssection.links!=undefined 
+                                                                span.arrow(class={isExpanded: isCurrentSection})
+                                                        if ssection.links!=undefined
+                                                            ol.helpNavLinks(class={isExpanded: isCurrentSection})
+                                                                each link in ssection.links
+                                                                    li.helpNavLinkItem(class={isActive: page.path === link.path})
+                                                                        a.helpNavLink(href=`${config.root || ''}${link.path}`)= link.title
+                                if category.links 
+                                    ol.helpNavLinks(class={isExpanded: isCurrentCategory})
+                                        each link in category.links
+                                            - const herfPath=link.path.indexOf("://")==-1?((config.root || "" )+link.path):link.path
+                                            li.helpNavLinkItem(class={isActive: page.path === link.path})
+                                                a.helpNavLink(href=`${herfPath}  `)= link.title
+                               
+            .helpNavBookListArea#helpNavBookListArea
+                .helpNavBookList-container
+                    .helpNavBookList
+                        each book in sitemap
+                            - const isCurrentBook = new RegExp(`^${book.path}`).test(page.path)
+                            - const firstPath= (book.categories[0].links==undefined && book.categories[0].sections==undefined ) ?'':  (book.categories[0].links==undefined?book.categories[0].sections[0].path:book.categories[0].links[0].path);
+                            - const oldHerfPath=(book.categories[0].links==undefined && book.categories[0].sections==undefined )?book.categories[0].path:firstPath;
+                            - const herfPath=book.rootPath!=undefined?book.rootPath:oldHerfPath;
+                                a.book(href=`${config.root || ''}${herfPath}`)
+                                    span.helpNavBookName
+                                        span.icon(style=`background-image: url(${url_for(book.icon)})`)
+                                        span.name
+                                            = book.compendium
+                                    span.selectIcon(class={isActive: isCurrentBook})
+
+
+
+

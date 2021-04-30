@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>guide-icons/R&amp;D Specifications</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="guide-icons/R&amp;D-Specifications">
+            <g id="Group-3" transform="translate(1.000000, 4.000000)">
+                <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+                <path d="M7.5,7.25 C7.5,7.80228475 7.05228475,8.25 6.5,8.25 L1,8.25 C0.44771525,8.25 6.76353751e-17,7.80228475 0,7.25 L0,1.75 C-6.76353751e-17,1.19771525 0.44771525,0.75 1,0.75 L6.5,0.75 C7.05228475,0.75 7.5,1.19771525 7.5,1.75 L7.5,3.249 L19.5,3.25 L19.5,0 L24,4.5 L19.5,9 L19.5,5.75 L12.999,5.75 L12.999,18 L19.5,18 L19.5,14.75 L24,19.25 L19.5,23.75 L19.5,20.5 L11.5,20.5 C10.9477153,20.5 10.5,20.0522847 10.5,19.5 L10.499,5.749 L7.5,5.749 L7.5,7.25 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

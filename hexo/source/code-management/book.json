@@ -1,0 +1,37 @@
+{
+    "root": ".",
+    "structure": {
+        "readme": "INTRO.md"
+    },
+    "title": "Coding代码管理",
+	"plugins": [
+        "search-pro",
+        "copy-code-button",
+        "splitter",
+        "expandable-chapters",
+        "theme-comscore",
+        "anchor-navigation-ex",
+        "tbfed-pagefooter",
+        "-lunr",
+        "-search",
+        "-fontsettings",
+        "-highlight",
+        "-sharing",
+        "hints"
+    ],
+	"pluginsConfig": {
+        "anchor-navigation-ex": {
+            "showLevel": false
+        },
+
+        "theme-default": {
+            "showLevel": true
+        },
+        "tbfed-pagefooter": {
+            "copyright": "©Coding, Tencent CSIG质量部 测试开发中心",
+            "modify_label": "文档更新时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        }
+    }
+	
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="46px" height="43px" viewBox="0 0 46 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组</title>
+    <g id="OA-Help-Center" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-191.000000, -396.000000)">
+            <g id="Group-5" transform="translate(168.000000, 375.000000)">
+                <g id="Group-4" transform="translate(24.000000, 20.000000)">
+                    <g id="Icon">
+                        <g id="编组" transform="translate(0.916667, 2.750000)">
+                            <polygon id="路径" stroke="#334966" stroke-width="1.83333333" points="0 0 0 37.5833333 18.6108776 37.5833333 21.0833333 39.2316371 23.555789 37.5833333 42.1666667 37.5833333 42.1666667 0 24.1108776 0 21.0833333 2.01836289 18.055789 0"></polygon>
+                            <polygon id="路径" fill="#00A4FF" fill-rule="nonzero" points="21.0833333 9.16666667 23.8333333 6.41666667 35.75 6.41666667 35.75 28.4166667 33 31.1666667 21.0833333 31.1666667"></polygon>
+                            <polygon id="路径" fill="#334966" fill-rule="nonzero" points="6.41666667 18.3333333 26.5833333 18.3333333 26.5833333 20.1666667 6.41666667 20.1666667"></polygon>
+                            <polygon id="路径" fill="#334966" fill-rule="nonzero" points="6.41666667 24.75 26.5833333 24.75 26.5833333 26.5833333 6.41666667 26.5833333"></polygon>
+                            <rect id="矩形" fill="#334966" fill-rule="nonzero" x="6.41666667" y="11.9166667" width="11" height="1.83333333"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Artifact Repositories</title>
+    <defs>
+        <path d="M20.3394495,6 L9.19266055,6 C8.82729358,6 8.53211009,6.28410596 8.53211009,6.63576159 L8.53211009,11.3245033 L3.66055046,11.3245033 C3.29518349,11.3245033 3,11.6086093 3,11.9602649 L3,17.3642384 C3,17.715894 3.29518349,18 3.66055046,18 L14.8073394,18 C15.1727064,18 15.4678899,17.715894 15.4678899,17.3642384 L15.4678899,12.6754967 L20.3394495,12.6754967 C20.7048165,12.6754967 21,12.3913907 21,12.0397351 L21,6.63576159 C21,6.28410596 20.7048165,6 20.3394495,6 Z M10.2,7.71428571 L13.8,7.71428571 L13.8,11.1428571 L10.2,11.1428571 L10.2,7.71428571 Z M8.4,16.2857143 L4.8,16.2857143 L4.8,12.8571429 L8.4,12.8571429 L8.4,16.2857143 Z M13.8,16.2857143 L10.2,16.2857143 L10.2,12.8571429 L13.8,12.8571429 L13.8,16.2857143 Z M19.2,11.1428571 L15.6,11.1428571 L15.6,7.71428571 L19.2,7.71428571 L19.2,11.1428571 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="guide-icons/Artifact-Repositories-24px">
+            <rect id="Rectangle" fill="#2474F0" x="0" y="0" width="24" height="24"></rect>
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#FFFFFF" fill-rule="nonzero" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

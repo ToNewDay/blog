@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>icons/arrow-right</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Support" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="状态" transform="translate(-179.000000, -788.000000)" stroke="#FFFFFF">
+            <g id="guide" transform="translate(103.000000, 152.000000)">
+                <g id="section-get-started" transform="translate(16.000000, 401.000000)">
+                    <g id="get-started">
+                        <g id="read" transform="translate(27.000000, 216.000000)">
+                            <g id="icons/arrow-right" transform="translate(33.000000, 19.000000)">
+                                <path d="M13.5,8 L2.5,8" id="Path"></path>
+                                <polyline id="Path" points="9.5 4 13.5 8 9.5 12"></polyline>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>icons/disliked</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Support-|-Article" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop(1280+)" transform="translate(-1057.000000, -3069.000000)" fill="#76808E" fill-rule="nonzero">
+            <g id="doc-body" transform="translate(373.000000, 108.000000)">
+                <g id="like-or-dislike" transform="translate(0.000000, 2933.000000)">
+                    <g id="like-or-dislike-actions" transform="translate(582.000000, 22.000000)">
+                        <g id="disliked-button" transform="translate(96.000000, 0.000000)">
+                            <g id="icons/disliked" transform="translate(6.000000, 6.000000)">
+                                <path d="M17.3,11 L13,11 L13,7 C13,5.5 12.2,5 11,5 C10.7,5 10.4,5.2 10.4,5.5 C10.4,5.5 8.1,13 8,13 L8,21 L16.6,21 C17.9,21 19,20 19.2,18.7 L20,14.1 C20.1,13.3 19.9,12.5 19.4,12 C18.9,11.3 18.1,11 17.3,11 Z" id="Path" transform="translate(14.012500, 13.000000) scale(1, -1) translate(-14.012500, -13.000000) "></path>
+                                <rect id="Rectangle" transform="translate(5.000000, 9.000000) scale(1, -1) translate(-5.000000, -9.000000) " x="4" y="5" width="2" height="8"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

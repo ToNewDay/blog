@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>coding-book@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="33.6316549%" y1="34.1050645%" x2="78.2949093%" y2="68.6238752%" id="linearGradient-1">
+            <stop stop-color="#E2EEFF" offset="0%"></stop>
+            <stop stop-color="#A6C3EC" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="12" width="58" height="42" rx="2"></rect>
+        <rect id="path-3" x="1" y="0" width="42" height="54" rx="2"></rect>
+        <filter x="-9.5%" y="-9.3%" width="123.8%" height="118.5%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="1" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.125   0 0 0 0 0.175   0 0 0 0 0.25  0 0 0 0.05 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="0%" y1="75.6910904%" x2="100%" y2="75.6910904%" id="linearGradient-5">
+            <stop stop-color="#455B79" offset="0%"></stop>
+            <stop stop-color="#273953" offset="2.36471231%"></stop>
+            <stop stop-color="#16273F" offset="5.95071732%"></stop>
+            <stop stop-color="#1E314D" offset="9.1699951%"></stop>
+            <stop stop-color="#1E314D" offset="98.0940315%"></stop>
+            <stop stop-color="#2A456C" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-6" x="0" y="0" width="42" height="54" rx="2"></rect>
+        <filter x="-13.1%" y="-6.5%" width="126.2%" height="120.4%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.125   0 0 0 0 0.175   0 0 0 0 0.25  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Support" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-1041.000000, -904.000000)">
+            <g id="read-this-documents" transform="translate(168.000000, 845.000000)">
+                <g id="download-ppt" transform="translate(843.000000, 63.000000)">
+                    <g id="coding-book" transform="translate(33.000000, 0.000000)">
+                        <g id="Rectangle-Copy-27">
+                            <use fill="#FFFFFF" xlink:href="#path-2"></use>
+                            <use fill-opacity="0.4" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                        </g>
+                        <rect id="Rectangle" fill="#CADBF4" x="21" y="20" width="27" height="2" rx="1"></rect>
+                        <rect id="Rectangle-Copy-28" fill="#CADBF4" x="21" y="26" width="29" height="2" rx="1"></rect>
+                        <rect id="Rectangle-Copy-28" fill="#CADBF4" x="21" y="32" width="27" height="2" rx="1"></rect>
+                        <rect id="Rectangle-Copy-29" fill="#CADBF4" x="21" y="38" width="29" height="2" rx="1"></rect>
+                        <rect id="Rectangle-Copy-29" fill="#CADBF4" x="21" y="44" width="27" height="2" rx="1"></rect>
+                        <g id="Mask">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        </g>
+                        <mask id="mask-7" fill="white">
+                            <use xlink:href="#path-6"></use>
+                        </mask>
+                        <g id="Mask-Copy-4">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-6"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-6"></use>
+                            <use fill-opacity="0.94" fill="url(#linearGradient-5)" fill-rule="evenodd" xlink:href="#path-6"></use>
+                        </g>
+                        <rect id="Rectangle" fill="#425570" mask="url(#mask-7)" x="11" y="45" width="19" height="2" rx="1"></rect>
+                        <g id="monkey" opacity="0.900000036" mask="url(#mask-7)" fill="#FFFFFF">
+                            <g transform="translate(11.000000, 11.000000)">
+                                <path d="M6.06976317,8.32853306 C5.89011776,8.32853306 5.74443272,8.50469008 5.74443272,8.7221281 C5.74443272,8.93944215 5.89011776,9.11572314 6.06976317,9.11572314 C6.24940858,9.11572314 6.39509363,8.93944215 6.39509363,8.7221281 C6.39509363,8.50469008 6.24940858,8.32853306 6.06976317,8.32853306" id="Fill-50"></path>
+                                <path d="M13.7964353,8.32853306 C13.6167899,8.32853306 13.4711049,8.50469008 13.4711049,8.7221281 C13.4711049,8.93944215 13.6167899,9.11572314 13.7964353,9.11572314 C13.9760808,9.11572314 14.1217658,8.93944215 14.1217658,8.7221281 C14.1217658,8.50469008 13.9760808,8.32853306 13.7964353,8.32853306" id="Fill-51"></path>
+                                <path d="M18.4955409,8.79645868 C18.1837454,8.91906198 17.8747799,8.80885537 17.8052596,8.55050826 C17.7358623,8.29203719 17.9323649,7.98311157 18.2441604,7.86063223 C18.5559559,7.73802893 18.8650445,7.84811157 18.9344418,8.10658264 C19.003839,8.36505372 18.8073365,8.67385537 18.4955409,8.79645868 M9.98194805,13.9969959 C6.55674989,13.9915413 3.78295092,12.365343 3.78295092,10.0372438 C3.78295092,9.98840083 3.78467355,9.94005372 3.7870114,9.89195455 C3.78787271,9.87596281 3.78861098,9.86009504 3.78971838,9.84435124 C3.79181014,9.81137603 3.79476322,9.77864876 3.79796238,9.74592149 C3.802392,9.70216116 3.80743683,9.65852479 3.81383516,9.6150124 C3.81445039,9.61079752 3.81494257,9.60645868 3.81568084,9.60211983 C3.88458592,9.14455785 4.06115522,8.44625207 4.32767026,8.04385537 C4.9682415,7.1103843 6.11071248,6.48856612 7.41400303,6.48856612 C8.41743339,6.48856612 9.32476576,6.85773967 9.98194805,7.45315289 C10.6391303,6.85773967 11.5464627,6.48856612 12.54977,6.48856612 C13.8531836,6.48856612 14.9956546,7.1103843 15.6361028,8.04385537 C15.9027409,8.44625207 16.0791871,9.14455785 16.1482153,9.60211983 C16.1488305,9.60645868 16.1494457,9.61079752 16.1499379,9.6150124 C16.1563362,9.65852479 16.1615041,9.70216116 16.1658107,9.74592149 C16.1690098,9.77864876 16.1719629,9.81137603 16.1741777,9.84435124 C16.1751621,9.86009504 16.1760234,9.87596281 16.1767617,9.89195455 C16.1790995,9.94005372 16.1808221,9.98840083 16.1808221,10.0372438 C16.1808221,12.365343 13.4070232,13.9915413 9.98194805,13.9969959 M2.15851344,8.55050826 C2.08911617,8.80885537 1.78002763,8.91906198 1.46835515,8.79645868 C1.15655962,8.67385537 0.960057068,8.36505372 1.02945434,8.10658264 C1.09885161,7.84811157 1.4078171,7.73802893 1.71961263,7.86063223 C2.03140816,7.98311157 2.22791071,8.29203719 2.15851344,8.55050826 M18.4799143,6.19414463 C17.946269,6.19414463 17.4786987,6.53517769 17.2172285,7.04666529 C16.3276146,5.10311157 14.4768977,3.30249174 12.1897409,2.56104545 C10.9557246,2.06492975 10.0891201,1.11273967 9.98194805,-0.000111570248 C9.87477602,1.11273967 9.00817148,2.06492975 7.77403212,2.56104545 C5.48687534,3.30249174 3.63628151,5.10311157 2.74666759,7.04666529 C2.48519739,6.53517769 2.0175041,6.19414463 1.48385879,6.19414463 C0.664380409,6.19414463 -6.15224011e-05,6.99794628 -6.15224011e-05,7.98943388 C-6.15224011e-05,8.98092149 0.664380409,9.78459917 1.48385879,9.78459917 C1.73314756,9.78459917 1.96791704,9.70997107 2.17414013,9.57856612 C2.2446448,12.7978636 5.71155515,14.8875744 9.98194805,14.8931529 C14.2523409,14.8875744 17.7191282,12.7978636 17.789756,9.57856612 C17.9959791,9.70997107 18.2306255,9.78459917 18.4799143,9.78459917 C19.2995157,9.78459917 19.9638346,8.98092149 19.9638346,7.98943388 C19.9638346,6.99794628 19.2995157,6.19414463 18.4799143,6.19414463" id="Fill-52"></path>
+                            </g>
+                        </g>
+                        <text id="CODING" opacity="0.900000036" mask="url(#mask-7)" font-family="Avenir-Heavy, Avenir" font-size="6" font-weight="600" letter-spacing="0.6" fill="#FFFFFF">
+                            <tspan x="6.85585715" y="41">CODIN</tspan>
+                            <tspan x="29.9618571" y="41" letter-spacing="0.5142857">G</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

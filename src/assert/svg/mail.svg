@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="96px" height="96px" viewBox="0 0 96 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>contact-bg/mail</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Support" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.049999997">
+        <g id="Desktop-HD" transform="translate(-1196.000000, -2965.000000)" fill="#0066FF" fill-rule="nonzero">
+            <g id="section-contact" transform="translate(168.000000, 2765.000000)">
+                <g id="mail-support" transform="translate(752.000000, 140.000000)">
+                    <g id="background">
+                        <g id="contact-bg/mail" transform="translate(276.000000, 60.000000)">
+                            <path d="M53.6,58.4 C51.9558567,59.5257005 49.9906804,60.0871794 48,60 C46.0093196,60.0871794 44.0441433,59.5257005 42.4,58.4 L0,35.6 L0,76 C8.11624501e-16,82.627417 5.372583,88 12,88 L84,88 C90.627417,88 96,82.627417 96,76 L96,35.6 L53.6,58.4 Z" id="Path"></path>
+                            <path d="M84,8 L12,8 C5.372583,8 -1.23706722e-14,13.372583 -1.31822992e-14,20 L-1.31822992e-14,24 C-0.00777307943,25.466929 0.750387686,26.8316184 2,27.6 L46,51.6 C46.6141668,51.9233468 47.3087127,52.062256 48,52 C48.6912873,52.062256 49.3858332,51.9233468 50,51.6 L94,27.6 C95.2496123,26.8316184 96.0077731,25.466929 96,24 L96,20 C96,13.372583 90.627417,8 84,8 Z" id="Path"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

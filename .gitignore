@@ -1,0 +1,9 @@
+dist
+build
+hexo/docs
+node_modules
+yarn.lock
+yarn-error.log
+db.json
+document-search.js
+public/docs

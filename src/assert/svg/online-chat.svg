@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="96px" height="96px" viewBox="0 0 96 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>contact-bg/online-chat</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Support" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.049999997">
+        <g id="Desktop-HD" transform="translate(-444.000000, -2965.000000)" fill="#0066FF" fill-rule="nonzero">
+            <g id="section-contact" transform="translate(168.000000, 2765.000000)">
+                <g id="online-support" transform="translate(0.000000, 140.000000)">
+                    <g id="background">
+                        <g id="contact-bg/online-chat" transform="translate(276.000000, 60.000000)">
+                            <path d="M96,44 C96,22 74.4,4 48,4 C21.6,4 0,22 0,44 C0,66 21.6,84 48,84 C52,84 56,83.6 60,82.8 L82.4,91.6 C82.8,91.6 83.2,92 84,92 C84.8,92 85.6,91.6 86.4,91.2 C87.6,90.4 88,88.8 88,87.6 L86,68.8 C92.4,61.6 96,52.8 96,44 Z M56,56 L28,56 L28,48 L56,48 L56,56 Z M68,40 L28,40 L28,32 L68,32 L68,40 Z" id="Shape" transform="translate(48.000000, 48.000000) scale(-1, 1) translate(-48.000000, -48.000000) "></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

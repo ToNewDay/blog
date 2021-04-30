@@ -1,0 +1,3 @@
+[submodule "hexo/source/cd"]
+	path = hexo/source/cd
+	url = http://git.code.oa.com/coding-oa/Integrated-docs/coding-cd-docs.git

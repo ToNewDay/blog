@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.3 (81716) - https://sketch.com -->
+    <title>icons/disliked-blue</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons/disliked-blue" fill="#0066FF" fill-rule="nonzero">
+            <g>
+                <path d="M17.3,11 L13,11 L13,7 C13,5.5 12.2,5 11,5 C10.7,5 10.4,5.2 10.4,5.5 C10.4,5.5 8.1,13 8,13 L8,21 L16.6,21 C17.9,21 19,20 19.2,18.7 L20,14.1 C20.1,13.3 19.9,12.5 19.4,12 C18.9,11.3 18.1,11 17.3,11 Z" id="Path" transform="translate(14.012500, 13.000000) scale(1, -1) translate(-14.012500, -13.000000) "></path>
+                <rect id="Rectangle" transform="translate(5.000000, 9.000000) scale(1, -1) translate(-5.000000, -9.000000) " x="4" y="5" width="2" height="8"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
