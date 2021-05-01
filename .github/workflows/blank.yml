@@ -32,7 +32,7 @@ jobs:
         uses: appleboy/ssh-action@v0.1.4
         with: 
           host: ""
-          port: ${{ env.PORT }}
+          port: 122
           username: ${{ env.USER }}
           password: ${{ env.PWD }}
           script: ls
