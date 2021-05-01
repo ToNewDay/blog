@@ -28,10 +28,10 @@ jobs:
       - name: run remote
         uses: appleboy/ssh-action@v0.1.4
         with: 
-          host: $HOST
-          port: $PORT
-          username: $USER
-          password: $PWD
+          host: ${{ env.HOST }}
+          port: ${{ env.PORT }}
+          username: ${{ env.USER }}
+          password: ${{ env.PWD }}
           script: ls
 
 
