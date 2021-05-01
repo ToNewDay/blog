@@ -35,6 +35,8 @@ jobs:
           password: ${{ env.PWD }}
           script: ls
 
+      - name: test env
+        run: export
 
       # Runs a single command using the runners shell
       - name: build image
