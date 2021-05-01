@@ -25,8 +25,15 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
       
-      - name: view env
-        run: echo ${{ secrets.HOST }}
+      - name: run remote
+        uses: appleboy/ssh-action@v0.1.4
+        with: 
+          host: ${{ secrets.HOST }}
+          port: ${{ secrets.PORT }}
+          username: ${{ secrets.USER }}
+          password: ${{ secrets.PWD }}
+          script: ls
+
 
       # Runs a single command using the runners shell
       - name: build image
