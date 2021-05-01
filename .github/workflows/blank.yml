@@ -31,7 +31,7 @@ jobs:
       - name: run remote
         uses: appleboy/ssh-action@v0.1.4
         with: 
-          host: ${{ env.HOST }}
+          host: 47.241.12.158
           port: ${{ env.PORT }}
           username: ${{ env.USER }}
           password: ${{ env.PWD }}
