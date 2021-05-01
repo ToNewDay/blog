@@ -31,10 +31,10 @@ jobs:
       - name: run remote
         uses: appleboy/ssh-action@v0.1.4
         with: 
-          host: ""
-          port: 122
-          username: ${{ env.USER }}
-          password: ${{ env.PWD }}
+          host: ${{ secrets.HOME_UBUNTU_HOST }}
+          port: ${{ secrets.HOME_UBUNTU_PORT }}
+          username: ${{ secrets.HOME_UBUNTU_USER }}
+          password: ${{ secrets.HOME_UBUNTU_PWD }}
           script: ls
 
 
