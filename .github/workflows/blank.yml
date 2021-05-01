@@ -27,7 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: build image
-        run: docker build -tag blog .
+        run: docker build -t blog .
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
