@@ -43,7 +43,7 @@ jobs:
           port: ${{ secrets.HOME_UBUNTU_PORT }}
           username: ${{ secrets.HOME_UBUNTU_USER }}
           password: ${{ secrets.HOME_UBUNTU_PWD }}
-          script: 
+          script: |
             sudo docker container rm -f asset-system-blog
             sudo docker run -itd --name asset-system-blog -p 8081:80 registry.cn-shenzhen.aliyuncs.com/asset_system/blog:${{ github.sha }} 
 
