@@ -39,6 +39,7 @@
     "eslint-plugin-react-hooks": "^1.6.1",
     "file-loader": "4.3.0",
     "fs-extra": "^8.1.0",
+    "global": "^4.4.0",
     "html-webpack-plugin": "4.0.0-beta.11",
     "identity-obj-proxy": "3.0.0",
     "jest": "24.9.0",
@@ -73,7 +74,8 @@
     "webpack-dev-server": "3.11.0",
     "webpack-manifest-plugin": "2.2.0",
     "webpack-visualizer-plugin": "^0.1.11",
-    "workbox-webpack-plugin": "4.3.1"
+    "workbox-webpack-plugin": "4.3.1",
+    "yarn": "^1.22.10"
   },
   "scripts": {
     "start": " gulp && gulp dbJsonCopy && gulp copyDocsFile  && cross-env PORT=8081 node scripts/start.js",
