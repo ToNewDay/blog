@@ -8,6 +8,7 @@ import '../style.scss';
 import AsideMenu from './AsideMenu';
 import searchData from '../../assert/search.json';
 import { DataItem, Search as DocumentSearch } from '../../component/document-search/search';
+import Header from '../Header'
 
 // import { navSectionList, bookList, getDefaultBookInfo } from './Util';
 import util from './Util';
@@ -79,9 +80,9 @@ export default function Body(props: { searchKey?: string, hexoData: any }) {
                     </div>
                 </div>
                 <div className="helpContent">
+                    <Header />
                     <article className="helpArticle markdown-body" >
-                        <DocumentSearch searchData={searchData as Array<DataItem>} placeholder="" />
-                        <div style={{ maxWidth: '1200px', marginTop: '50px' }} key={pathName} dangerouslySetInnerHTML={{ __html: pageContent }}    ></div>
+                        <div style={{ maxWidth: '1200px', marginTop: '150px' }} key={pathName} dangerouslySetInnerHTML={{ __html: pageContent }}    ></div>
                     </article>
                     <AsideMenu key={pathName} pageContent={pageContent} activeHash={window.location.hash} />
                 </div>

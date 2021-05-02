@@ -5,6 +5,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
+  Redirect,
   Link,
 } from "react-router-dom";
 import './App.scss';
@@ -31,6 +32,7 @@ function App() {
       <Fragment>
         <Router>
           <Switch>
+            <Redirect exact from="/" to="/docs/react/INTRO.html" />
             <Route path="/">
               <DocumentIndex />
             </Route>

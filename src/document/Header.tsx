@@ -9,13 +9,13 @@ export default function Header(props: { onSearchKeyChange?: (val: string) => voi
             <div className="header-container no-touch">
                 <div className="header-content clearfix">
                     <div className="header-body">
-                        <div>
+                        <div style={{ fontSize: '24px' }} >
                             三月的博客
                         </div>
                         <div className='global-search'>
                             <DocumentSearch onSearchKeyChange={props.onSearchKeyChange} searchData={searchData as Array<DataItem>} placeholder="" />
                         </div>
-                        
+
                     </div>
                 </div>
             </div>

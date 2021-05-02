@@ -76,7 +76,7 @@
         background: #fff;
         border-bottom: 1px solid #ebebeb;
         background: rgba(255, 255, 255, 0.98);
-        width: 100%;
+        width: calc(100% - 300px);
         height: auto;
         position: fixed;
         top: 0;
@@ -86,7 +86,6 @@
             box-shadow: 0 8px 24px 0 rgba(32, 45, 64, 0.08), 0 1px 3px 0 rgba(32, 45, 64, 0.05);
         }
         .header-content {
-            max-width: 1338px;
             margin: 0 auto;
             height: 72px;
             line-height: 18px;
@@ -659,7 +658,6 @@
                     width: 315px;
                     position: fixed;
                     height: 100%;
-                    overflow-y: scroll;
                     width: fit-content;
                     flex-direction: column;
                     padding: 20px 16px 0 40px;
@@ -710,6 +708,7 @@
                                     border-radius: 4px;
                                     box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.08);
                                     background: url(../assert/hexo/book-icons/agile.svg) no-repeat;
+                                    background-size: contain;
                                 }
                                 .name {
                                     display: inline-block;
@@ -955,6 +954,8 @@
                                         margin-left: 8px;
                                         box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.08);
                                         background: url(../assert/hexo/book-icons/agile.svg) no-repeat;
+                                        background-size: contain;
+
                                     }
                                     .name {
                                         display: inline-block;
@@ -1111,7 +1112,7 @@
 
 
                 .helpArticle {
-                    margin: 0 75px;
+                    margin: 100px 75px;
                     padding-bottom: 40px;
                     color: #202d40;
                     font-size: 15px;

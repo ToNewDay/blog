@@ -7,3 +7,8 @@ sitemap:
     categories:
       - title: 简介
         path: react/INTRO.html
+      - title: 最佳实践
+        path: react/最佳实践
+        links:
+          - title: 从零构建一个React项目
+            path: react/最佳实践/从零构建一个React项目.html

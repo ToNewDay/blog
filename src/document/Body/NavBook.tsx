@@ -130,7 +130,7 @@ export function NavBook(props: INavBookProps) {
                     }
                 }}
             >
-                <div className="helpNavBookName"  ><span className="icon" style={{ backgroundSize: 'cover', background: `url(/${bookInfo.icon})  center center` }}  ></span><span
+                <div className="helpNavBookName"  ><span className="icon" style={{ backgroundSize: "cover", backgroundImage: `url(/${bookInfo.icon})` }}  ></span><span
                     className="name">{bookInfo.title}</span></div>
                 <div className="selectArrow"></div>
             </div>

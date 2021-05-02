@@ -6,13 +6,12 @@ a {
 .header-container {
     background: transparent;
     position: absolute;
-    width: 100%;
+    width: calc(100% - 300px);
     top: 10px;
     left: 0;
     z-index: 999;
     animation: ceiling-header-show 1s cubic-bezier(.4,0,.2,1) forwards;
     .header-content {
-        max-width: 1147px;
         margin: 0 auto;
         height: 60px;
         line-height: 60px;
