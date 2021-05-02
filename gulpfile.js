@@ -18,6 +18,14 @@ const extendDocArr = [
             icon: 'docs/images/book-icons/react.svg',
         }
     },
+    {
+        dirName: 'frontend',
+        staticDirName: '前端',
+        navigation: {
+            compendium: '前端',
+            icon: 'docs/images/book-icons/quick-started.svg',
+        }
+    },
 ];
 
 async function clean() {

@@ -26,10 +26,11 @@ export interface IDocumentBookInfo {
 
 export const BOOK_DEFAULT_PAGE: Map<string, string> = new Map<string, string>([
     ['React', '/docs/React/readme.html'],
-]); 
+    ['前端', '/docs/frontend/typescript/基础.html'],
+]);
 
 // 文档模块的排序
-export const BOOK_NAV_SORT: Array<string> = ['React'];
+export const BOOK_NAV_SORT: Array<string> = ['React', '前端'];
 
 export interface GuideItemProps {
     title: string;
@@ -125,7 +126,7 @@ export const FEATURE_DATA: Array<FeatureProps> = [
         title: '阅读这些功能文档',
         list:
             [
-                
+
                 { text: 'Coding 公共库 API', url: 'config-api-public/api/projects.html' },
                 { text: '创建项目', url: 'quick-start/project-new.html' },
                 { text: '添加成员', url: 'quick-start/project-members.html' },

@@ -12,3 +12,12 @@ sitemap:
         links:
           - title: 从零构建一个React项目
             path: react/最佳实践/从零构建一个React项目.html
+  - compendium: 前端
+    icon: docs/images/book-icons/quick-started.svg
+    path: frontend/
+    categories:
+      - title: TypeScript
+        path: frontend/typescript
+        links:
+          - title: 基础
+            path: frontend/typescript/基础.html
