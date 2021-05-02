@@ -27,7 +27,15 @@ jobs:
         run: echo ${{ env.HOST }}
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-      
+
+
+      # Runs a single command using the runners shell
+      - name: build image
+        run: |
+          docker login --username=${{ secrets.DOCKER_REPO_USER_NAME }} -p=${{ secrets.DOCKER_REPO_PWD }} registry.cn-shenzhen.aliyuncs.com
+          docker build -t registry.cn-shenzhen.aliyuncs.com/asset_system/blog:${{ env.sha }} .
+          docker push registry.cn-shenzhen.aliyuncs.com/asset_system/blog:${{ env.sha }} 
+          
       - name: run remote
         uses: appleboy/ssh-action@v0.1.4
         with: 
@@ -35,13 +43,9 @@ jobs:
           port: ${{ secrets.HOME_UBUNTU_PORT }}
           username: ${{ secrets.HOME_UBUNTU_USER }}
           password: ${{ secrets.HOME_UBUNTU_PWD }}
-          script: ls
-
-
-
-      # Runs a single command using the runners shell
-      - name: build image
-        run: docker build -t blog .
+          script: 
+            sudo docker container rm -f asset-system-blog
+            sudo docker run -itd --name asset-system-blog -p 8081:80 registry.cn-shenzhen.aliyuncs.com/asset_system/blog:${{ env.sha }} 
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
