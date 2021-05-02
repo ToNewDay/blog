@@ -25,7 +25,7 @@ export interface IDocumentBookInfo {
 }
 
 export const BOOK_DEFAULT_PAGE: Map<string, string> = new Map<string, string>([
-    ['React', '/docs/React/readme.html'],
+    ['React', '/docs/react/INTRO.html'],
     ['前端', '/docs/frontend/typescript/基础.html'],
 ]);
 
